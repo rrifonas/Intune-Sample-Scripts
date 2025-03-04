@@ -1,0 +1,5 @@
+"Computer","OU","DistinguishedName"
+"CLI01","ITS","OU=ITS,OU=Workstations,OU=contoso Resources,DC=contoso,DC=com"
+"CLI06","ITS","OU=ITS,OU=Workstations,OU=contoso Resources,DC=contoso,DC=com"
+"CLI07","HRR","OU=HRR,OU=Workstations,OU=contoso Resources,DC=contoso,DC=com"
+"CLI02","TST","OU=TST,OU=Workstations,OU=contoso Resources,DC=contoso,DC=com"

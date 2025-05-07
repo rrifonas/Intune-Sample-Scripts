@@ -153,7 +153,7 @@ $deviceGroupName = "_AAD-Test-PrimaryUser" #Replace with a Device Group
 
 $GroupId = Get-MgGroup -Filter "displayname eq '$deviceGroupName'"
 
-$GroupMembers = Get-MgGroupMember -GroupId $GroupId.Id
+$GroupMembers = Get-MgGroupMember -GroupId $GroupId.Id -All
 
 ForEach ($Id in $GroupMembers){
     $devId = $Id.AdditionalProperties.deviceId
